@@ -165,7 +165,7 @@ const Checkout = () => {
                   <div className='flex gap-5'>
                     <Image
                         src={wixMedia.getScaledToFillImageUrl(
-                          item?.image,
+                          item?.image ?? "",
                           72,
                           96,
                           {}
