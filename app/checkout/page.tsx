@@ -187,7 +187,7 @@ const Checkout = () => {
             <div className='underline w-full border border-gray' />
             <div className='flex justify-between p-5'>
               <p>Subtotal</p>
-              <p>{cart?.subtotal?.formattedAmount}</p>
+              <p>{(cart as any)?.subtotal?.formattedAmount}</p>
             </div>
             <div className='flex justify-between pl-5 pr-5 mb-5'>
               <p>Sales Tax</p>
@@ -196,7 +196,7 @@ const Checkout = () => {
             <div className='underline w-full border border-gray' />
             <div className='flex justify-between p-5 font-bold'>
               <p>Total</p>
-              <p>${Number(cart?.subtotal?.amount) + Number(SalesTax)}</p>
+              <p>${Number((cart as any)?.subtotal?.formattedAmount) + Number(SalesTax)}</p>
             </div>
           </div>
         </div>
