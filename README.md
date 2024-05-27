@@ -1,3 +1,29 @@
+# CyberMart
+
+CyberMart is an advanced tech shop website built using Next.js, TailwindCSS, and Wix Headless. The website is designed to be fully responsive across all devices, providing users with a seamless shopping experience. Key features include a comprehensive cart system, robust search and filter functionality, and more.
+
+![Screenshot 2024-05-27 at 10 23 19 AM](https://github.com/TariqKichawele/CyberMart/assets/105932024/cd34a4df-2a7c-4dc2-8f48-9898c632273b)
+
+**Features**
+
+- Responsive Design: Optimized for desktop, tablet, and mobile devices.
+- Cart System: Fully functional cart for adding, removing, and updating items.
+- Search and Filter: Advanced search and filter functionality to easily find products.
+- Wix Headless Integration: Utilizes Wix Headless for backend management and content delivery.
+
+**Usage**
+
+CyberMart comes with an intuitive interface for both users and administrators. Users can browse products, use the search and filter functionalities, and manage their cart. Administrators can manage products and content through the Wix Headless system.
+
+- Adding Products
+To add products to your store, use the Wix Headless system. Detailed documentation on how to manage content with Wix Headless can be found here.
+
+- Cart Management
+The cart system allows users to add products, adjust quantities, and proceed to checkout. The cart state is maintained across sessions to enhance the user experience.
+
+- Search and Filter
+The search bar at the top of the page allows users to quickly find products by name. Additionally, the filter functionality can be used to narrow down products based on categories, price range, and other attributes.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
